@@ -27,7 +27,7 @@ public class SearchResult implements Comparable
 	public void setScore(double score) {
 		this.score = score;
 	}
-	
+	// TODO: Use this for now then modify this once https://github.com/mockito/mockito/issues/769 is fixed
 	@Override
 	public String toString() {
 		return "[score=" + score + "]"+document+"\n";
