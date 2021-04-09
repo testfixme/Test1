@@ -14,7 +14,7 @@ public class Document implements Comparable
 	public int getId() {
 		return id;
 	}
-	//Tests that Document class can be recovered after a connection loss *exception from ZooKeeper ensemble. * <p>See also TEST-2</p>.
+	//Tests that Document class can be recovered after a connection loss *exception from ZooKeeper ensemble. * <p>See also Issue 2</p>.
 	public Document(Integer id, String rawText, List<String> tokens) {
 		this.id = id;
 		this.rawText = rawText;
