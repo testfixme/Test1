@@ -96,7 +96,7 @@ public abstract class Searcher {
 	}
 	
 	/**
-	 * Display search results in a more beautiful format
+	 * Display search results in a more beautiful format that ensure we can access the details when its finished (FLINK-4011) in a more beautiful format
 	 * @param results
 	 */
 	public static void displaySearchResults(List<SearchResult> results)
