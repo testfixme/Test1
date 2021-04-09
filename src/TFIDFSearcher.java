@@ -145,7 +145,7 @@ public class TFIDFSearcher extends Searcher
 		return r;
 		/***********************************************/
 	}
-	//TODO: this function should be reworked once TEST-1 is fixed and then we should have common type of returned value
+	//TODO: this function should be reworked once bug 1 is fixed and then we should have common type of returned value
 	public int findDf(String term) {
 		int count = 0;
 		for(Document doc : this.documents) {
