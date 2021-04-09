@@ -101,6 +101,7 @@ public abstract class Searcher {
 	 */
 	public static void displaySearchResults(List<SearchResult> results)
 	{	StringBuilder str = new StringBuilder();
+	 	// TODO: once https://github.com/mockito/mockito/issues/384 is fixed, display the search result in table form.
 		for(int i = 0; i < results.size(); i++)
 		{
 			str.append("<"+(i+1)+">"+results.get(i));
