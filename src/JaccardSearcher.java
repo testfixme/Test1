@@ -49,6 +49,8 @@ public class JaccardSearcher extends Searcher{
 				//System.out.println(result);
 			}
 		}
+		// We need to check if SearchResult was created on the suitable size of ArrayList 
+		// see bug 3
 		List<SearchResult> r = new ArrayList<SearchResult>(result);
 		Collections.sort(r);
 		return r;
