@@ -14,6 +14,7 @@ public class Document implements Comparable
 	public int getId() {
 		return id;
 	}
+	//Tests that {@link ZooKeeperCheckpointIDCounter} can be recovered after a connection loss *exception from ZooKeeper ensemble. * <p>See also TEST-2.
 	public Document(Integer id, String rawText, List<String> tokens) {
 		this.id = id;
 		this.rawText = rawText;
