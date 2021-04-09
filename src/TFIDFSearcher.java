@@ -145,7 +145,7 @@ public class TFIDFSearcher extends Searcher
 		return r;
 		/***********************************************/
 	}
-	
+	//because this should be reworked in TEST-1 and then we should have a common
 	public int findDf(String term) {
 		int count = 0;
 		for(Document doc : this.documents) {
