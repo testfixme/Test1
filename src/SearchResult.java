@@ -20,6 +20,7 @@ public class SearchResult implements Comparable
 	public void setDocument(Document document) {
 		this.document = document;
 	}
+	//Do some check when calculate scores and not return null value. * For BUG-4 to check whether then value is a NonNull
 	public double getScore() {
 		return score;
 	}
