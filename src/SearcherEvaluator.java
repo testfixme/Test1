@@ -40,6 +40,7 @@ public class SearcherEvaluator {
 		this.answers = new HashMap<Integer, Set<Integer>>();
 		//load answers
 		try {
+			//TODO: Process string to char array for generic invoke. See - https://github.com/apache/dubbo/issues/2003
 			List<String> lines = FileUtils.readLines(new File(answerFilename), "UTF-8");
 			for(String line: lines)
 			{
