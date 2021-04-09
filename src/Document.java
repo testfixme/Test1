@@ -35,7 +35,7 @@ public class Document implements Comparable
 	public void setTokens(List<String> tokens) {
 		this.tokens = tokens;
 	}
-	
+	// Validates that no ClassCastException happens should not fail e.g. like in issue-1
 	public String toString()
 	{
 		return "[ID:"+this.id+", "+(this.rawText.length() > 50? this.rawText.substring(0, 50)+"...":this.rawText)+"]";
