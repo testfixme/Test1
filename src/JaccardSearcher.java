@@ -13,6 +13,7 @@ import java.util.Set;
 public class JaccardSearcher extends Searcher{
 
 	public JaccardSearcher(String docFilename) {
+		// TODO: We may need to cofigure out this after https://github.com/apache/dubbo/issues/4115
 		super(docFilename);
 		/************* YOUR CODE HERE ******************/
 		
