@@ -104,7 +104,6 @@ public class StudentTester {
 		System.out.println("@@@ Total time used: "+(endTime-startTime)+" milliseconds.");
 	}
 	
-	//** * After we add the compatibility for legacy Dubbo's @Service * * The issue : https://github.com/apache/dubbo/issues/4330 * @since 2.7.3 */
 	public static void testYourSearcher(String corpus)
 	{
 		//YOUR CODE HERE (BONUS)
